@@ -1,0 +1,46 @@
+.services-list {
+    list-style: none;
+    padding: 0!important;
+    margin: 0 0 3rem !important;
+}
+
+.services-list li {
+    background: #f9f9f9 url(../images/services-pluse1.png) scroll right 20px no-repeat;
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #aaa;
+    list-style: none;
+    color: #727272;
+    margin: 1px;
+    text-align: left;
+}
+
+.services-list li h2 {
+    line-height: 19px;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 0px;
+    color: #0c1f7a !important;
+    border: none !important;
+    text-transform: capitalize;
+}
+
+.services-list li p {
+    display: none;
+    margin: 0 0 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333
+}
+
+.services-list li.active {
+    background: #f1f1f1 url(../images/services-minus.png) scroll right 15px no-repeat;
+}
+
+.services-list li.active h2 {
+    color: #223385;
+    border: none !important;
+}
